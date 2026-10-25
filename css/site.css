@@ -20,3 +20,12 @@
 .legend-entry{display:inline-flex;align-items:center;gap:5px}
 .architecture-figure img{aspect-ratio:1180/535;background:#f9fbfd}
 @media(max-width:760px){.figure-legend{gap:11px;white-space:normal;flex-wrap:wrap}.architecture-figure img{min-height:200px;object-fit:contain}}
+/* ORA visual identity — selected original logo and conceptual robot detail. */
+.brand img{border-radius:8px;object-fit:cover}
+.progress-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,330px);gap:36px;align-items:center}
+.progress-copy{min-width:0}
+.progress-body .progress-lead{font-size:clamp(27px,3vw,41px);margin:31px 0 35px;line-height:1.44}
+.progress-art{min-width:0;margin:0}
+.progress-art img{display:block;width:100%;aspect-ratio:550/412;object-fit:cover;border-radius:15px;border:1px solid rgba(255,255,255,.19);box-shadow:0 18px 32px rgba(0,0,0,.12)}
+.progress-art figcaption{color:#97a9bb;font-size:10px;letter-spacing:.02em;text-align:right;margin-top:10px}
+@media(max-width:800px){.progress-body{grid-template-columns:1fr}.progress-art{max-width:450px}.progress-body .progress-lead{margin-bottom:5px}}
