@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="470" viewBox="0 0 1600 470" role="img" aria-labelledby="title desc">
+  <title id="title">Open Robot Agent — ORA</title>
+  <desc id="desc">让通用智能走进物理世界。深蓝色横幅，左侧品牌文字，右侧为机器人机械臂与感知空间的原创矢量概念图。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101e30"/><stop offset="0.58" stop-color="#172d46"/><stop offset="1" stop-color="#203d58"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#86afca" stop-opacity=".22"/><stop offset="1" stop-color="#86afca" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="arm" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d6e7ee"/><stop offset=".54" stop-color="#83a8bc"/><stop offset="1" stop-color="#527791"/>
+    </linearGradient>
+    <linearGradient id="joint" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#365b74"/><stop offset="1" stop-color="#1a364f"/>
+    </linearGradient>
+    <pattern id="grid" width="47" height="47" patternUnits="userSpaceOnUse">
+      <path d="M47 0H0V47" fill="none" stroke="#b6d0e0" stroke-opacity=".065" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="22"/></filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#071828" flood-opacity=".45"/></filter>
+  </defs>
+  <rect width="1600" height="470" rx="23" fill="url(#bg)"/>
+  <rect width="1600" height="470" rx="23" fill="url(#grid)"/>
+  <path d="M0 365 C250 270 405 478 690 390 S1180 326 1600 442" fill="none" stroke="#83a5bc" stroke-width="1" stroke-opacity=".12"/>
+  <path d="M0 392 C290 291 415 500 732 405 S1230 349 1600 460" fill="none" stroke="#83a5bc" stroke-width="1" stroke-opacity=".1"/>
+  <path d="M0 419 C250 320 405 530 690 429 S1180 374 1600 478" fill="none" stroke="#83a5bc" stroke-width="1" stroke-opacity=".075"/>
+  <!-- Brand block -->
+  <g transform="translate(85 86)">
+    <rect width="45" height="45" rx="12" fill="#e9f4f9" fill-opacity=".08" stroke="#a1c7d5" stroke-opacity=".35"/>
+    <path d="M12 31V14l10.5 10L33 14v17" fill="none" stroke="#d9eef6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="34" cy="11" r="3.2" fill="#7bcbb8"/>
+    <text x="62" y="29" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-weight="650" letter-spacing="2.3" font-size="17" fill="#b5cadb">ORA <tspan fill="#607d96">/</tspan> RESEARCH INITIATIVE</text>
+  </g>
+  <text x="84" y="218" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-weight="720" font-size="75" letter-spacing="-3.8" fill="#f8fbff">Open Robot Agent</text>
+  <text x="88" y="281" font-family="Noto Sans CJK SC,PingFang SC,Microsoft YaHei,Arial,sans-serif" font-weight="490" font-size="29" letter-spacing="1" fill="#c2d4e3">让通用智能走进物理世界</text>
+  <rect x="87" y="324" width="52" height="3" rx="1.5" fill="#78c7b9"/>
+  <text x="87" y="371" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="1.65" fill="#94aec4">PERCEIVE   /   REASON   /   ACT   /   ADAPT</text>
+  <!-- Perception/world drawing to the right -->
+  <g transform="translate(1147 222)">
+    <ellipse rx="324" ry="255" fill="url(#halo)"/>
+    <circle r="173" fill="none" stroke="#9bbbd1" stroke-opacity=".19" stroke-width="1.3"/>
+    <circle r="125" fill="none" stroke="#b3d4e4" stroke-opacity=".1" stroke-dasharray="3 10"/>
+    <ellipse rx="235" ry="96" transform="rotate(-31)" fill="none" stroke="#8db4ce" stroke-opacity=".39" stroke-width="1.4"/>
+    <ellipse rx="214" ry="116" transform="rotate(30)" fill="none" stroke="#8db4ce" stroke-opacity=".25" stroke-width="1.2"/>
+    <g fill="#9dd9d0"><circle cx="-195" cy="83" r="5"/><circle cx="160" cy="-120" r="4"/><circle cx="207" cy="75" r="3" fill="#e6b382"/><circle cx="-31" cy="-164" r="3"/></g>
+    <g stroke="#9cbed4" stroke-opacity=".3"><path d="M-265 0H260"/><path d="M0-204V198"/><path d="M-134-125 162 147" stroke-dasharray="3 8"/></g>
+    <!-- One target and a narrow frame for physical grounding -->
+    <g transform="translate(152 -60)">
+      <path d="M-33-29h66v58h-66z" fill="#6ebda8" fill-opacity=".08" stroke="#8bd3bd" stroke-opacity=".72" stroke-width="1.6" stroke-dasharray="4 5"/>
+      <circle r="7" fill="#a6decf"/>
+      <path d="M0-40v-13M0 40v13M-43 0h-13M43 0h13" stroke="#a5dccc" stroke-opacity=".65" stroke-width="1.5"/>
+      <text x="43" y="-36" font-family="Arial,sans-serif" letter-spacing="1.4" fill="#9acbbf" font-size="11">TARGET</text>
+    </g>
+    <!-- articulated robot manipulator silhouette -->
+    <g filter="url(#shadow)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-155 141h110" stroke="#3a5870" stroke-width="36"/>
+      <rect x="-169" y="121" width="119" height="42" rx="12" fill="#63869e" stroke="#b8d0df" stroke-opacity=".7" stroke-width="1.7"/>
+      <path d="M-99 126 -154 44" stroke="#24445c" stroke-width="49"/>
+      <path d="M-99 126 -154 44" stroke="url(#arm)" stroke-width="34"/>
+      <path d="M-154 44 -50 -64" stroke="#26455e" stroke-width="49"/>
+      <path d="M-154 44 -50 -64" stroke="url(#arm)" stroke-width="32"/>
+      <path d="M-50 -64 54 -91" stroke="#213e56" stroke-width="39"/>
+      <path d="M-50 -64 54 -91" stroke="url(#arm)" stroke-width="26"/>
+      <g fill="url(#joint)" stroke="#d5e8f0" stroke-opacity=".9" stroke-width="3.3"><circle cx="-99" cy="126" r="23"/><circle cx="-154" cy="44" r="24"/><circle cx="-50" cy="-64" r="21"/><circle cx="54" cy="-91" r="15"/></g>
+      <g fill="#a0cfdd"><circle cx="-99" cy="126" r="9"/><circle cx="-154" cy="44" r="8"/><circle cx="-50" cy="-64" r="7"/><circle cx="54" cy="-91" r="5"/></g>
+      <g transform="translate(77 -99) rotate(-29)">
+        <rect x="-11" y="-9" width="32" height="20" rx="5" fill="#d3e9f2"/>
+        <path d="M-8 11 -12 37M18 11 22 37" stroke="#d9f1f8" stroke-width="6" fill="none"/>
+        <path d="M-12 37h-9M22 37h9" stroke="#d9f1f8" stroke-width="4"/>
+      </g>
+    </g>
+    <path d="M97-101 152-60" stroke="#92d6c8" stroke-width="1.5" stroke-dasharray="5 6" opacity=".75"/>
+  </g>
+  <path d="M85 417H1515" stroke="#d5e8f3" stroke-opacity=".15"/>
+  <text x="89" y="442" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" fill="#7897b2" font-size="12" letter-spacing="1.65">A GENERAL-PURPOSE AGENT FOR THE PHYSICAL WORLD</text>
+  <text x="1514" y="442" font-family="Arial,sans-serif" text-anchor="end" fill="#82a1bb" font-size="11" letter-spacing="1.2">OPENROBOTAGENT.GITHUB.IO</text>
+</svg>
