@@ -13,7 +13,7 @@
 - `index.html`：中文优先的完整双语单页网站。
 - `css/site.css`：页面样式（参考同一作者 [OpenResearchAssets](https://github.com/Suchenl/OpenResearchAssets) 的排版、导航与留白规范，并针对 ORA 重新组织）。
 - `js/site.js`：中文 / English 切换、移动导航与目录高亮；不使用外部库或网络请求。
-- `assets/ora-emblem.webp`：ORA 品牌主标志（从选定的原创视觉稿裁切）；`assets/robot-interaction.webp`：原创机械臂概念插画，**不是真实实验影像**。\n- `assets/*.svg`：概念 Hero 与架构图。`architecture-zh.svg` / `architecture-en.svg` 是同一物理闭环的两张独立可编辑矢量图，随语言切换，不含截图或字体文件。
+- `assets/ora-brand-banner.webp`：**完整 ORA 品牌横幅**，由选定的原始视觉截图压缩归档，不再只保留局部裁切；`assets/ora-brand-banner.svg`：据此独立绘制的可编辑矢量版，二者并非同一文件。\n- `assets/ora-emblem.webp`：主 Logo 裁切；`assets/robot-interaction.webp`：机械臂局部概念插画；均不是实际机器人实验画面。\n- `assets/*.svg`：概念 Hero 与架构图。`architecture-zh.svg` / `architecture-en.svg` 是同一物理闭环的两张独立可编辑矢量图，随语言切换，不含截图或字体文件。
 
 ## 发布边界
 
