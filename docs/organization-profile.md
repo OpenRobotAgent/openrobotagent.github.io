@@ -1,36 +1,12 @@
-<div align="center">
+# OpenRobotAgent 组织简介（唯一维护位置）
 
-<a href="https://openrobotagent.github.io/">
-  <img src="https://openrobotagent.github.io/assets/org-profile-banner.svg" alt="Open Robot Agent — 让通用智能走进物理世界" width="100%" />
-</a>
+组织公开 Profile README 已迁移至 [OpenRobotAgent/.github/profile/README.md](https://github.com/OpenRobotAgent/.github/blob/main/profile/README.md)。
 
-### 让通用智能走进物理世界
+**请仅在上述文件维护组织简介**，不要在网站仓库复制第二份正文。网站与组织 README 共用本站公开素材：
 
-**Open Robot Agent (ORA)** · 面向物理世界的通用机器人智能体研究计划。
+- [正式 ORA Logo](../assets/ora-emblem.webp)：由已选定的原创概念视觉稿裁切，栅格图片。
+- [机器人交互配图](../assets/robot-interaction.webp)：原创概念插画，不是实测影像。
 
-[**项目主页**](https://openrobotagent.github.io/) · [**公开网站源码**](https://github.com/OpenRobotAgent/openrobotagent.github.io)
+公开网页：<https://openrobotagent.github.io/>
 
-</div>
-
----
-
-### 我们关注什么？
-
-让同一个多模态 Agent 逐步具备感知、物理推理、操作决策和长程规划能力，并通过真实机器人交互检验行动是否达到目标。
-
-- **统一智能** · 将通用推理能力延伸到感知、操作和物理行动。
-- **可信执行** · 模型负责决策，机器人系统负责规划、约束与安全。
-- **真实反馈** · 依据实际观测和执行证据验证结果、调整下一步行动。
-
-> **当前状态**：ORA 处于研究和原型开发阶段。上述内容是研究方向，不代表全部能力已经实现或验证。核心研究代码及未发表的方法暂不公开。
-
-<details>
-<summary><b>English overview</b></summary>
-
-**Open Robot Agent (ORA)** explores general-purpose robot agents that extend multimodal reasoning into the physical world. Our focus is on unified embodied intelligence, trusted robotic execution, and feedback grounded in real observations.
-
-This is an ongoing research initiative, not a claim of validated general-purpose capabilities. Core research code and unpublished methods remain private for now.
-
-**[Explore the project website](https://openrobotagent.github.io/)**
-
-</details>
+核心研究仍保留在私人仓库；不得同步未发表的方法与实验数据。本网站不需要独立 CI/CD 流水线。
