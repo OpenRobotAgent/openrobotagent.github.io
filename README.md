@@ -14,7 +14,7 @@
 - `css/site.css`：页面样式（参考同一作者 [OpenResearchAssets](https://github.com/Suchenl/OpenResearchAssets) 的排版、导航与留白规范，并针对 ORA 重新组织）。
 - `js/site.js`：中文 / English 切换、移动导航与目录高亮；不使用外部库或网络请求。
 - `assets/ora-banner-background.webp`：由原创无字场景素材制作的 **4096 × 1280 高清背景**（包含机械臂）；`assets/ora-brand-banner.svg`：在背景上叠加 **原生 SVG 矢量文字** 的完整横幅，嵌入了独立的兼容图像以确保 GitHub README 正常显示。仅用于组织 Profile README 顶部，不在项目网站正文展示。
-- `assets/ora-emblem.webp`：主 Logo 裁切；`assets/robot-interaction.webp`：机械臂局部概念插画；均不是实际机器人实验画面。
+- `assets/mark.svg`：**ORA 正式网站 / 组织小图标**，采用确认的左移版 02 共笔画融合 SVG；网站 favicon、页头与页脚只引用这一份文件。`assets/ora-emblem.webp` 保留作为论文、海报和宣传用复杂 Logo，**不再用作网站图标**；`assets/robot-interaction.webp` 是机械臂概念插画，并非实验影像。
 - `assets/*.svg`：概念 Hero 与架构图。`architecture-zh.svg` / `architecture-en.svg` 是同一物理闭环的两张独立可编辑矢量图，随语言切换，不含截图或字体文件。
 
 ## 发布边界

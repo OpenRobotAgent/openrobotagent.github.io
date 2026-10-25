@@ -1,20 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title desc">
-<title id="title">ORA — Open Robot Agent</title>
-<desc id="desc">A perception and feedback loop becomes a robotic gripper around a physical target.</desc>
-<defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#213a56"/><stop offset="1" stop-color="#101f31"/></linearGradient>
- <linearGradient id="rim" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f2fbff"/><stop offset="1" stop-color="#9fc8de"/></linearGradient>
- <radialGradient id="light" cx="50%" cy="45%"><stop stop-color="#5c91b6" stop-opacity=".16"/><stop offset="1" stop-color="#5c91b6" stop-opacity="0"/></radialGradient>
-</defs>
-<rect width="256" height="256" rx="55" fill="url(#bg)"/>
-<rect x="2" y="2" width="252" height="252" rx="53" fill="none" stroke="#9ab8ce" stroke-opacity=".20" stroke-width="2"/>
-<circle cx="124" cy="128" r="106" fill="url(#light)"/>
-<!-- The O: an open feedback loop -->
-<path d="M161 67 A77 77 0 1 0 161 189" fill="none" stroke="url(#rim)" stroke-width="16" stroke-linecap="round"/>
-<!-- Minimal robotic gripper -->
-<path d="M164 69L192 100L172 118" fill="none" stroke="#dceff7" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M164 187L192 156L172 138" fill="none" stroke="#dceff7" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
-<!-- Grounded physical target -->
-<circle cx="181" cy="128" r="11.5" fill="#83d7bd"/>
-<circle cx="181" cy="128" r="4.5" fill="#d9fff2" opacity=".9"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Organic connected ORA">
+ <title>Organic connected ORA</title><rect width="256" height="256" rx="56" fill="#263943"/>
+<g transform="translate(-10,0)" fill="none" stroke="#E9E8E0" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M121 82 C106 80 96 80 85 83 C64 89 51 106 51 127 C51 157 67 176 92 176 C111 176 124 164 124 143 V83 H147 C168 83 178 95 178 109 C178 124 166 133 146 133 H124" stroke-width="15.5"/>
+ <path d="M146 133 Q160 155 174 174 L199 84 L228 174" stroke-width="15.5"/>
+ <path d="M188 146 H217" stroke-width="10.5"/>
+</g></svg>
