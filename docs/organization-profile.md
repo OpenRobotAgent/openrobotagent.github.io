@@ -1,12 +1,13 @@
-# OpenRobotAgent 组织简介（唯一维护位置）
+# ORA 组织简介与公开视觉素材
 
-组织公开 Profile README 已迁移至 [OpenRobotAgent/.github/profile/README.md](https://github.com/OpenRobotAgent/.github/blob/main/profile/README.md)。
+**唯一组织 Profile 正文：** [OpenRobotAgent/.github/profile/README.md](https://github.com/OpenRobotAgent/.github/blob/main/profile/README.md)。
 
-**请仅在上述文件维护组织简介**，不要在网站仓库复制第二份正文。网站与组织 README 共用本站公开素材：
+本网站仓库只托管该组织 README 使用的公开视觉资产，不复制第二份组织简介正文：
 
-- [正式 ORA Logo](../assets/ora-emblem.webp)：由已选定的原创概念视觉稿裁切，栅格图片。
-- [机器人交互配图](../assets/robot-interaction.webp)：原创概念插画，不是实测影像。
+- [独立高清背景（4096 × 1280）](../assets/ora-banner-background.webp)：机械臂、玻璃块和光轨的原始构图，无任何文字。
+- [组织 README 顶部组合横幅（SVG）](../assets/ora-brand-banner.svg)：背景作为嵌入图像，项目名和中英文文案均为可编辑 SVG `<text>`，避免栅格文字模糊。
+- [ORA Logo](../assets/ora-emblem.webp)、[机械臂局部概念图](../assets/robot-interaction.webp)：其他公开品牌素材。
 
-公开网页：<https://openrobotagent.github.io/>
+**展示边界**：完整横幅只放在 GitHub Organization Profile README 顶部，不放在独立项目网站正文。概念视觉不代表实际机器人实验。
 
-核心研究仍保留在私人仓库；不得同步未发表的方法与实验数据。本网站不需要独立 CI/CD 流水线。
+公开主页：<https://openrobotagent.github.io/>。私人研究源码、未发表的方法和实验数据不向此仓库同步。保持纯静态部署，不添加 CI/CD 工作流。
