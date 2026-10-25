@@ -28,8 +28,9 @@
   <!-- Brand block -->
   <g transform="translate(85 86)">
     <rect width="45" height="45" rx="12" fill="#e9f4f9" fill-opacity=".08" stroke="#a1c7d5" stroke-opacity=".35"/>
-    <path d="M12 31V14l10.5 10L33 14v17" fill="none" stroke="#d9eef6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="34" cy="11" r="3.2" fill="#7bcbb8"/>
+    <path d="M26 10 A14 14 0 1 0 26 35" fill="none" stroke="#d9eef6" stroke-width="3.3" stroke-linecap="round"/>
+    <path d="M26 10 35 18 30 21M26 35 35 27 30 24" fill="none" stroke="#d9eef6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="35" cy="22.5" r="3.2" fill="#7bcbb8"/>
     <text x="62" y="29" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-weight="650" letter-spacing="2.3" font-size="17" fill="#b5cadb">ORA <tspan fill="#607d96">/</tspan> RESEARCH INITIATIVE</text>
   </g>
   <text x="84" y="218" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-weight="720" font-size="75" letter-spacing="-3.8" fill="#f8fbff">Open Robot Agent</text>
