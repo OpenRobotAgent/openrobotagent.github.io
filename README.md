@@ -13,7 +13,7 @@
 - `index.html`：中文优先的完整双语单页网站。
 - `css/site.css`：页面样式（参考同一作者 [OpenResearchAssets](https://github.com/Suchenl/OpenResearchAssets) 的排版、导航与留白规范，并针对 ORA 重新组织）。
 - `js/site.js`：中文 / English 切换、移动导航与目录高亮；不使用外部库或网络请求。
-- `assets/*.svg`：原创标志、概念 Hero、公开安全范围内的架构示意。
+- `assets/*.svg`：原创标志与概念 Hero。`architecture-zh.svg` / `architecture-en.svg` 是同一物理闭环的两张独立可编辑矢量图，随语言切换，不含截图或字体文件。
 
 ## 发布边界
 
