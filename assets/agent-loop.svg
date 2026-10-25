@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="710" height="575" viewBox="0 0 710 575" role="img" aria-labelledby="t d">
+<title id="t">Robot Agent physical feedback loop</title>
+<desc id="d">An editorial concept figure showing perception, embodied reasoning, action, and physical feedback circling around a robot manipulator.</desc>
+<defs>
+ <radialGradient id="a" cx="52%" cy="43%" r="60%"><stop stop-color="#2b4c6c" stop-opacity=".7"/><stop offset="1" stop-color="#152b44" stop-opacity="0"/></radialGradient>
+ <linearGradient id="robot" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6fbff"/><stop offset="1" stop-color="#84aac7"/></linearGradient>
+ <linearGradient id="link" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9bc9d1"/><stop offset="1" stop-color="#c7e6f0"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+ <marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#7eabc9" stroke-width="1.4"/></marker>
+ <style>text{font-family:Arial,'Helvetica Neue',sans-serif}.small{font-size:10px;letter-spacing:1.6px;fill:#8ea8c2}.label{font-size:13px;font-weight:700;fill:#e2eef8}.chip{fill:#1a314b;stroke:#476482;stroke-width:1.2}.line{fill:none;stroke:#739abb;stroke-width:1.5}.grid{stroke:#8fb2cc;stroke-opacity:.075;stroke-width:1}</style>
+</defs>
+<rect width="710" height="575" fill="url(#a)"/>
+<g class="grid"><path d="M35 45H675M35 92H675M35 139H675M35 186H675M35 233H675M35 280H675M35 327H675M35 374H675M35 421H675M35 468H675M35 515H675"/><path d="M52 22V552M106 22V552M160 22V552M214 22V552M268 22V552M322 22V552M376 22V552M430 22V552M484 22V552M538 22V552M592 22V552M646 22V552"/></g>
+<ellipse cx="363" cy="316" rx="218" ry="167" fill="#568db3" opacity=".09" filter="url(#glow)"/>
+<circle cx="354" cy="291" r="166" fill="none" stroke="#6692b4" stroke-width="1.2" stroke-dasharray="4 10" opacity=".55"/>
+<circle cx="354" cy="291" r="214" fill="none" stroke="#467393" stroke-width="1.1" stroke-dasharray="2 14" opacity=".42"/>
+<path d="M242 154 A166 166 0 0 1 484 180" class="line" marker-end="url(#arr)" opacity=".8"/>
+<path d="M501 236 A166 166 0 0 1 457 418" class="line" marker-end="url(#arr)" opacity=".8"/>
+<path d="M340 455 A166 166 0 0 1 211 378" class="line" marker-end="url(#arr)" opacity=".8"/>
+<path d="M192 287 A166 166 0 0 1 242 154" class="line" marker-end="url(#arr)" opacity=".8"/>
+<!-- Tool/object target: cup -->
+<g transform="translate(382 218)">
+ <ellipse cx="20" cy="113" rx="70" ry="12" fill="#93b2c8" opacity=".12"/>
+ <path d="M-13 20h82l-9 90H-3Z" fill="#a4d1e5" opacity=".12" stroke="#8cc0de" stroke-width="2.1"/>
+ <path d="M68 34q42-2 39 24t-44 21" fill="none" stroke="#89bedb" stroke-width="7" stroke-linecap="round"/>
+ <ellipse cx="28" cy="20" rx="41" ry="9" fill="#c8e7ef" opacity=".5" stroke="#d2f2ff" stroke-width="1.4"/>
+ <path d="M0 63q29 11 63 0l-3 47H-4Z" fill="#6cb3d2" opacity=".22"/>
+ <path d="M-13 20h82" stroke="#b5e5f6" opacity=".7"/>
+</g>
+<!-- Robot arm, several technical joint positions -->
+<g stroke-linejoin="round" stroke-linecap="round">
+ <path d="M242 426H348" stroke="#6c879e" stroke-width="28"/>
+ <rect x="244" y="398" width="108" height="51" rx="17" fill="#7895ad" stroke="#c7dae8" stroke-width="3"/>
+ <path d="M297 397L252 350" stroke="#1d3d59" stroke-width="43"/>
+ <path d="M297 397L252 350" stroke="url(#link)" stroke-width="28"/>
+ <circle cx="299" cy="397" r="28" fill="#233c58" stroke="#96bfd6" stroke-width="5"/>
+ <circle cx="299" cy="397" r="12" fill="#9ed4e6"/>
+ <path d="M250 352L319 273" stroke="#254864" stroke-width="47"/>
+ <path d="M250 352L319 273" stroke="url(#robot)" stroke-width="31"/>
+ <circle cx="250" cy="352" r="28" fill="#36536d" stroke="#bee1ee" stroke-width="5"/>
+ <circle cx="250" cy="352" r="12" fill="#a2d7e3"/>
+ <path d="M318 273L384 210" stroke="#234461" stroke-width="35"/>
+ <path d="M318 273L384 210" stroke="url(#robot)" stroke-width="23"/>
+ <circle cx="319" cy="273" r="24" fill="#2b4b66" stroke="#c2dfed" stroke-width="4"/>
+ <circle cx="319" cy="273" r="8" fill="#a8d8e6"/>
+ <path d="M384 210L392 200" stroke="#9dcbdf" stroke-width="12"/>
+ <g transform="translate(393 192) rotate(43)"><rect x="-13" y="-8" width="29" height="23" rx="6" fill="#cce9f5"/><path d="M-12 11l-7 28M16 11l9 28" fill="none" stroke="#d9f4fc" stroke-width="6"/><path d="M-19 39H-5M12 39H25" stroke="#d9f4fc" stroke-width="5"/></g>
+</g>
+<!-- Points from perception on object -->
+<g fill="#a8dfb5" opacity=".9"><circle cx="402" cy="236" r="3.5"/><circle cx="437" cy="255" r="2"/><circle cx="423" cy="289" r="2.2"/><circle cx="403" cy="325" r="2.2"/><circle cx="415" cy="260" r="1.5"/></g>
+<path d="M402 236L473 178" stroke="#8ed4ac" stroke-width="1.5" stroke-dasharray="4 4" opacity=".7"/>
+<g>
+ <rect x="44" y="88" width="186" height="64" rx="12" class="chip"/><circle cx="64" cy="109" r="5" fill="#77c3aa"/><text x="78" y="113" class="small">01 / PERCEIVE</text><text x="62" y="136" class="label">What is here?</text>
+ <rect x="464" y="92" width="196" height="64" rx="12" class="chip"/><circle cx="485" cy="112" r="5" fill="#8ab9e8"/><text x="498" y="116" class="small">02 / REASON</text><text x="483" y="139" class="label">What should I do?</text>
+ <rect x="478" y="405" width="181" height="64" rx="12" class="chip"/><circle cx="498" cy="424" r="5" fill="#cfa273"/><text x="511" y="428" class="small">03 / ACT</text><text x="496" y="451" class="label">Reach the target.</text>
+ <rect x="42" y="416" width="185" height="64" rx="12" class="chip"/><circle cx="62" cy="434" r="5" fill="#7cc9d0"/><text x="75" y="438" class="small">04 / VERIFY</text><text x="60" y="460" class="label">What happened?</text>
+</g>
+<path d="M228 152L269 202M463 156L420 202M478 419L456 375M227 433L269 393" stroke="#8cb0c8" stroke-width="1.2" stroke-dasharray="4 5" fill="none"/>
+<text x="355" y="529" fill="#7493ab" font-size="10" font-family="Arial,sans-serif" text-anchor="middle" letter-spacing="2.1">A GENERAL AGENT IN A PHYSICAL WORLD</text>
+</svg>
